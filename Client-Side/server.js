@@ -6,7 +6,7 @@ const app = createServer();
 const port = 3500;
 
 const io = new Server(app, {
-    cors: "http://localhost:5173/",
+    cors: ["http://localhost:5173/", "https://imgovindjee.github.io/Tic-Tac-Toe-/"]
 });
 
 
